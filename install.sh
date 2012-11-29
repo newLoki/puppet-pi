@@ -7,7 +7,6 @@ if [ ! -e /usr/bin/librarian-puppet ]
 then
   #ruby-dev package is needed to build json-gem extension, which is required by librarian-puppet
   PKG_OK=$(dpkg-query -W --showformat='${Status}\n' ruby-dev|grep "install ok installed")
-  echo Checking for somelib: $PKG_OK
   if [ "" == "$PKG_OK" ]; then
     sudo apt-get --force-yes --yes install ruby-dev
   fi
