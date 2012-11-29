@@ -5,6 +5,6 @@ node default {
   }
 
   class {
-    ['vim', 'userdata'];
+    ['vim', 'userdata']:
   }
 }
