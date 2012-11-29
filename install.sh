@@ -2,7 +2,8 @@
 git pull
 
 #check if puppet-librarian is availeable
-if [ ! -e /usr/bin/librarian-puppet ] then
+if [ ! -e /usr/bin/librarian-puppet ] 
+then
   sudo gem install librarian-puppet  
 fi
 #install dependencies
