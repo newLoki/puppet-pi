@@ -6,6 +6,7 @@ Raspberry Pi.
 ##Prequisites
 * Ruby (```sudo apt-get install ruby```)
 * Git (```sudo apt-get install git-core```)
+* Puppet (```sudo gem install facter puppet --no-ri --no-rdoc```)
 
 ##Installation
 
