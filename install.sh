@@ -19,4 +19,4 @@ fi
 librarian-puppet install
 
 #run puppet
-puppet apply --modulepath=./modules -l /tmp/puppet.log ./manifests/pi.pp
+sudo puppet apply --modulepath=./modules -l /tmp/puppet.log ./manifests/pi.pp
