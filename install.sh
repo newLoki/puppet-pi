@@ -1,3 +1,4 @@
+#!/bin/bash
 #get newest source
 git pull
 
