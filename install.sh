@@ -13,7 +13,7 @@ then
   
   
   #now install librarian-puppet
-  sudo gem install librarian-puppet  
+  sudo gem install --no-ri --no-rdoc librarian-puppet  
 fi
 #install dependencies
 librarian-puppet install
