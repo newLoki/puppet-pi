@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Applications/MAMP/htdocs/puppet-devmac'
+let g:netrw_dirhist_2='/Applications/MAMP/htdocs/puppet-devmac/manifests'
+let g:netrw_dirhist_3='/Users/albertoassmann/.vim/bundle/puppet'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_5='/efi'
+let g:netrw_dirhist_6='/efi/refit'
+let g:netrw_dirhist_7='/Users/albertoassmann/Projects/Vaillant-ETShop/config/manifests'
