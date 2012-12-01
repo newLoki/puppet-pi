@@ -6,7 +6,7 @@ git pull
 if [ ! -e /usr/bin/librarian-puppet ] 
 then
   #ruby-dev package is needed to build json-gem extension, which is required by librarian-puppet
-  PKG_OK=$(sudo aptitude search ruby-dev|grep "p   ruby-dev")
+  PKG_OK=$(sudo aptitude search ruby-dev|grep "i   ruby-dev")
   if [ "" == "$PKG_OK" ]; then
     sudo apt-get --force-yes --yes install ruby-dev
   fi
