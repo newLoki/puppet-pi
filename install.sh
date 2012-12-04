@@ -3,7 +3,7 @@
 git pull
 
 #check if puppet-librarian is availeable
-if [ ! -e /usr/bin/librarian-puppet ] 
+if [ ! which librarian-puppet | grep "librarian-puppet" ] 
 then
   #ruby-dev package is needed to build json-gem extension, which is required by librarian-puppet
   PKG_OK=$(sudo aptitude search ruby-dev|grep "i   ruby-dev")
