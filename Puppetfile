@@ -12,3 +12,5 @@ mod 'vim',
   :git => 'https://github.com/saz/puppet-vim'
 
 
+mod 'dmxusb',
+  :git => 'https://github.com/newLoki/puppet-dmxusb.git'
